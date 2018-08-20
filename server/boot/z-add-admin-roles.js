@@ -21,7 +21,7 @@
     //make appadmin an admin
     role.principals.create({
       principalType: RoleMapping.USER,
-      principalId: 11 //11 for Heroku using clearDB, 1 for local
+      principalId: 1
     }, function(err, principal) {
       console.log(err);
     });
