@@ -1,0 +1,28 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "AppUser": 2,
+    "AppToken": 4,
+    "Firewall": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "AppUser": {
+      "1": "{\"extensionNumber\":101,\"password\":\"$2a$10$u25em8GsTRszseT2asynH.NgM48xlKQ51iVHO/RAf/dg4/RJnuwhq\",\"email\":\"kyle@test.com\",\"id\":1}"
+    },
+    "AppToken": {
+      "uCDSQQhkOyD0vB7UPXzfHRoXsXWbjnPwVThdljzNZZFroY2FD5NcPOUxrhv3H89q": "{\"id\":\"uCDSQQhkOyD0vB7UPXzfHRoXsXWbjnPwVThdljzNZZFroY2FD5NcPOUxrhv3H89q\",\"ttl\":1209600,\"created\":\"2018-08-17T17:10:17.083Z\",\"userId\":1}",
+      "EEMmto9P1fCOFU3FDBAQj5EW6vc9xCG05cbMIRycKjSAPQvnfd1JBl9BPmVNEeVC": "{\"id\":\"EEMmto9P1fCOFU3FDBAQj5EW6vc9xCG05cbMIRycKjSAPQvnfd1JBl9BPmVNEeVC\",\"ttl\":1209600,\"created\":\"2018-08-20T13:52:48.697Z\",\"userId\":1}",
+      "THXljf03i4NZcjPQVAyvVSfn6OBMSqrMSVinzmOL5o4qMyppow4QneefzvCNPKnC": "{\"id\":\"THXljf03i4NZcjPQVAyvVSfn6OBMSqrMSVinzmOL5o4qMyppow4QneefzvCNPKnC\",\"ttl\":1209600,\"created\":\"2018-08-20T14:12:12.081Z\",\"userId\":1}"
+    },
+    "Firewall": {}
+  }
+}
