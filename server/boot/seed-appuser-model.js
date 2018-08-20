@@ -4,11 +4,11 @@ module.exports = function(app) {
   
       app.models.AppUser.create([{
         extensionNumber: 101,
-        email: 'kyle@example.org',
+        email: 'appadmin@example.org',
         password: 'testing',
-        firstName: 'Kyle',
-        lastName: 'Cleveland',
-        name: 'Kyle Cleveland',
+        firstName: 'App',
+        lastName: 'Admin',
+        name: 'App Admin',
         businessPhone: '+17207249757',
         company: 'RingCentral',
         timezone: 'America/Denver',
