@@ -1,3 +1,3 @@
-## Client
+## SDK's
 
-This is the place for your application front-end files.
+Here you can find the ReactJS front-end SDK.
