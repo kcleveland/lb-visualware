@@ -1,0 +1,39 @@
+module.exports = function(app) {
+    app.dataSources.mysqlDs.automigrate('Capacity', function(err) {
+      if (err) throw err;
+  
+      app.models.Capacity.create([{
+        recordId: 135462,
+        testId: 178391,
+        time: '31 May 2018 17:54:46 GMT',
+        detaillink: '/myspeed/db/report?id=342605',
+        sid: 'Customer A - Plux/rc_full_test/RasPI',
+        ip: '10.20.30.40',
+        isp: 'Comcast',
+        dcapacity: 59558656, //1559558656,
+        ucapacity: 12552000,
+        dpackets: 8640,
+        upackets: 7464,
+        packetsize: 200,
+        qos: 68
+      }, {
+        recordId: 145981,
+        testId: 152947,
+        time: '30 May 2018 18:24:22 GMT',
+        detaillink: '/myspeed/db/report?id=342606',
+        sid: 'Customer B - Dave/rc_full_test/RasPI',
+        ip: '10.20.30.50',
+        isp: 'Century Link',
+        dcapacity: 25510656, //2325510656,
+        ucapacity: 8827000,
+        dpackets: 6442,
+        upackets: 5987,
+        packetsize: 200,
+        qos: 82
+      }], function(err, capacities) {
+        if (err) throw err;
+  
+        console.log('Models created: \n', capacities);
+      });
+    });
+  };

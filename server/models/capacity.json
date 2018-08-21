@@ -1,5 +1,6 @@
 {
-  "name": "Firewall",
+  "name": "Capacity",
+  "plural": "Capacities",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -14,50 +15,38 @@
     "testid": {
       "type": "number"
     },
-    "avgresponse": {
-      "type": "number"
-    },
-    "minresponse": {
-      "type": "number"
-    },
-    "maxresponse": {
-      "type": "number"
-    },
-    "ports": {
-      "type": "string"
-    },
-    "protocol": {
-      "type": "string"
-    },
-    "popen": {
-      "type": "number"
-    },
-    "pblock": {
-      "type": "number"
-    },
-    "tpopen": {
-      "type": "number"
-    },
-    "tpblock": {
-      "type": "number"
-    },
-    "time": {
-      "type": "date"
-    },
-    "pblocklist": {
-      "type": "string"
-    },
     "detaillink": {
       "type": "string"
     },
     "sid": {
       "type": "string"
     },
+    "time": {
+      "type": "date"
+    },
     "ip": {
       "type": "string"
     },
     "isp": {
       "type": "string"
+    },
+    "dcapacity": {
+      "type": "number"
+    },
+    "ucapacity": {
+      "type": "number"
+    },
+    "dpackets": {
+      "type": "number"
+    },
+    "upackets": {
+      "type": "number"
+    },
+    "packetsize": {
+      "type": "number"
+    },
+    "qos": {
+      "type": "number"
     }
   },
   "validations": [],

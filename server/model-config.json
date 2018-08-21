@@ -14,7 +14,8 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": false
   },
   "AccessToken": {
     "dataSource": "db",
@@ -36,15 +37,23 @@
     "public": false
   },
   "AppUser": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mysqlProd",
     "public": true
   },
   "AppToken": {
-    "dataSource": "db",
+    "dataSource": "mysqlProd",
     "public": false
   },
   "Firewall": {
-    "dataSource": "mysqlDs",
+    "dataSource": "mysqlProd",
+    "public": true
+  },
+  "Capacity": {
+    "dataSource": "mysqlProd",
+    "public": true
+  },
+  "Voip": {
+    "dataSource": "mysqlProd",
     "public": true
   }
 }

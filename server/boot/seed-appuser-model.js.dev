@@ -1,5 +1,5 @@
 module.exports = function(app) {
-    app.dataSources.mysqlDs.automigrate('AppUser', function(err) {
+    app.dataSources.mysqlProd.autoupdate('AppUser', function(err) {
       if (err) throw err;
   
       app.models.AppUser.create([{

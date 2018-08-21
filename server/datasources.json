@@ -1,7 +1,6 @@
 {
   "db": {
     "name": "db",
-    "file": "db.json",
     "connector": "memory"
   },
   "mysqlDs": {
@@ -12,6 +11,16 @@
     "password": "secret",
     "name": "mysqlDs",
     "user": "homestead",
+    "connector": "mysql"
+  },
+  "mysqlProd": {
+    "host": "38.97.225.131",
+    "port": 3306,
+    "url": "",
+    "database": "rc",
+    "password": "R1ngC3ntr@l",
+    "name": "mysqlProd",
+    "user": "ringcentral",
     "connector": "mysql"
   }
 }

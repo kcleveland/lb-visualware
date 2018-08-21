@@ -1,5 +1,5 @@
 {
-  "name": "Firewall",
+  "name": "Voip",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -14,49 +14,70 @@
     "testid": {
       "type": "number"
     },
-    "avgresponse": {
-      "type": "number"
-    },
-    "minresponse": {
-      "type": "number"
-    },
-    "maxresponse": {
-      "type": "number"
-    },
-    "ports": {
-      "type": "string"
-    },
-    "protocol": {
-      "type": "string"
-    },
-    "popen": {
-      "type": "number"
-    },
-    "pblock": {
-      "type": "number"
-    },
-    "tpopen": {
-      "type": "number"
-    },
-    "tpblock": {
-      "type": "number"
-    },
-    "time": {
-      "type": "date"
-    },
-    "pblocklist": {
-      "type": "string"
-    },
     "detaillink": {
       "type": "string"
     },
     "sid": {
       "type": "string"
     },
+    "time": {
+      "type": "date"
+    },
     "ip": {
       "type": "string"
     },
-    "isp": {
+    "jitter": {
+      "type": "number"
+    },
+    "djitter": {
+      "type": "number"
+    },
+    "maxjitter": {
+      "type": "number"
+    },
+    "dmaxjitter": {
+      "type": "number"
+    },
+    "loss": {
+      "type": "number"
+    },
+    "dloss": {
+      "type": "number"
+    },
+    "uorder": {
+      "type": "number"
+    },
+    "dorder": {
+      "type": "number"
+    },
+    "rttmin": {
+      "type": "number"
+    },
+    "rttavg": {
+      "type": "number"
+    },
+    "rttmax": {
+      "type": "number"
+    },
+    "discards": {
+      "type": "number"
+    },
+    "mos": {
+      "type": "number"
+    },
+    "dmos": {
+      "type": "number"
+    },
+    "reg": {
+      "type": "number"
+    },
+    "invite": {
+      "type": "number"
+    },
+    "bye": {
+      "type": "number"
+    },
+    "sipalgfw": {
       "type": "string"
     }
   },

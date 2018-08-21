@@ -23,7 +23,7 @@
       principalType: RoleMapping.USER,
       principalId: 1
     }, function(err, principal) {
-      console.log(err);
+      if (err) console.log(err);
     });
   });
 
