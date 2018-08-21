@@ -2,6 +2,10 @@
 A server-side REST API exposing the MySQL data from Visualware.
 Built using the [LoopBack JS](https://loopback.io) framework.
 
+### SDK's
+There is a ReactJS SDK available to make consuming this API
+easier on the front-end. Look in the `/sdks/react` folder.
+
 ## Deploy on Heroku
 To deploy this application on Heroku, first create a new app
 on Heroku and give it a name, eg. lb-visualware.
