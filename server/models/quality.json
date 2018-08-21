@@ -1,0 +1,218 @@
+{
+  "name": "Quality",
+  "plural": "Qualities",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "recordid": {
+      "type": "number",
+      "id": true,
+      "required": true
+    },
+    "testid": {
+      "type": "number"
+    },
+    "time": {
+      "type": "date"
+    },
+    "detaillink": {
+      "type": "string"
+    },
+    "sid": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "isp": {
+      "type": "string"
+    },
+    "dspeed": {
+      "type": "number"
+    },
+    "uspeed": {
+      "type": "number"
+    },
+    "qos": {
+      "type": "number"
+    },
+    "rtt": {
+      "type": "number"
+    },
+    "rttmax": {
+      "type": "number"
+    },
+    "rttavg": {
+      "type": "number"
+    },
+    "maxpause": {
+      "type": "number"
+    },
+    "maxroutespeed": {
+      "type": "number"
+    },
+    "maxlinespeed": {
+      "type": "number"
+    },
+    "concurrenttcp": {
+      "type": "number"
+    },
+    "tcpmtu": {
+      "type": "number"
+    },
+    "tcpforcedidle": {
+      "type": "number"
+    },
+    "pooo": {
+      "type": "number"
+    },
+    "booo": {
+      "type": "number"
+    },
+    "pow": {
+      "type": "number"
+    },
+    "bow": {
+      "type": "number"
+    },
+    "dop": {
+      "type": "number"
+    },
+    "dob": {
+      "type": "number"
+    },
+    "pdp": {
+      "type": "number"
+    },
+    "pdb": {
+      "type": "number"
+    },
+    "crcerr": {
+      "type": "number"
+    },
+    "boff": {
+      "type": "number"
+    },
+    "ts": {
+      "type": "number"
+    },
+    "probe": {
+      "type": "number"
+    },
+    "winzeroup": {
+      "type": "number"
+    },
+    "byteslost": {
+      "type": "number"
+    },
+    "rtxtmo": {
+      "type": "number"
+    },
+    "rtxfast": {
+      "type": "number"
+    },
+    "pretx": {
+      "type": "number"
+    },
+    "bretx": {
+      "type": "number"
+    },
+    "sendclose": {
+      "type": "number"
+    },
+    "rcvwinup": {
+      "type": "number"
+    },
+    "acktoomuch": {
+      "type": "number"
+    },
+    "duppack": {
+      "type": "number"
+    },
+    "sndprobe": {
+      "type": "number"
+    },
+    "presisttmo": {
+      "type": "number"
+    },
+    "interface": {
+      "type": "string"
+    },
+    "uqos": {
+      "type": "number"
+    },
+    "umaxpause": {
+      "type": "number"
+    },
+    "umaxlinespeed": {
+      "type": "number"
+    },
+    "uconcurrenttcp": {
+      "type": "number"
+    },
+    "utcpforcedidle": {
+      "type": "number"
+    },
+    "ftl": {
+      "type": "number"
+    },
+    "noal": {
+      "type": "number"
+    },
+    "sf": {
+      "type": "number"
+    },
+    "ethrxcrcerr": {
+      "type": "number"
+    },
+    "ovr": {
+      "type": "number"
+    },
+    "trunc": {
+      "type": "number"
+    },
+    "dtesttype": {
+      "type": "string"
+    },
+    "utesttype": {
+      "type": "string"
+    },
+    "netdown": {
+      "type": "number"
+    },
+    "netup": {
+      "type": "number"
+    },
+    "downpc": {
+      "type": "number"
+    },
+    "http3": {
+      "type": "number"
+    },
+    "http4": {
+      "type": "number"
+    },
+    "http5": {
+      "type": "number"
+    },
+    "httpq": {
+      "type": "number"
+    },
+    "version": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "number"
+    },
+    "freeq": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

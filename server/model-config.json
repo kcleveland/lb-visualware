@@ -91,5 +91,77 @@
         }
       }
     }
+  },
+  "Web": {
+    "dataSource": "mysqlProd",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
+  },
+  "Speed": {
+    "dataSource": "mysqlProd",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
+  },
+  "Route": {
+    "dataSource": "mysqlProd",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
+  },
+  "Hispeed": {
+    "dataSource": "mysqlProd",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
+  },
+  "Quality": {
+    "dataSource": "mysqlProd",
+    "public": true
+  },
+  "VoipCapacity": {
+    "dataSource": "mysqlProd",
+    "public": true
   }
 }

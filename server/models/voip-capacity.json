@@ -1,5 +1,6 @@
 {
-  "name": "Voip",
+  "name": "VoipCapacity",
+  "plural": "VoipCapacities",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -53,19 +54,16 @@
     "rttmin": {
       "type": "number"
     },
-    "rttavg": {
+    "rttmax": {
       "type": "number"
     },
-    "rttmax": {
+    "rttavg": {
       "type": "number"
     },
     "discards": {
       "type": "number"
     },
     "mos": {
-      "type": "number"
-    },
-    "dmos": {
       "type": "number"
     },
     "reg": {
@@ -79,23 +77,37 @@
     },
     "sipalgfw": {
       "type": "string"
+    },
+    "time_capacity": {
+      "type": "string"
+    },
+    "timeint_capacity": {
+      "type": "number"
+    },
+    "dcapacity": {
+      "type": "number"
+    },
+    "ucapacity": {
+      "type": "number"
+    },
+    "dpackets": {
+      "type": "number"
+    },
+    "upackets": {
+      "type": "number"
+    },
+    "dmaxbandwidth": {
+      "type": "number"
+    },
+    "umaxbandwidth": {
+      "type": "number"
+    },
+    "qos": {
+      "type": "number"
     }
   },
   "validations": [],
   "relations": {},
-  "acls": [
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "DENY"
-    },
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$authenticated",
-      "permission": "ALLOW"
-    }
-  ],
+  "acls": [],
   "methods": {}
 }
