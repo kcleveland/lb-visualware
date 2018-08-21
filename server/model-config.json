@@ -46,14 +46,50 @@
   },
   "Firewall": {
     "dataSource": "mysqlProd",
-    "public": true
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
   },
   "Capacity": {
     "dataSource": "mysqlProd",
-    "public": true
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
   },
   "Voip": {
     "dataSource": "mysqlProd",
-    "public": true
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
   }
 }
