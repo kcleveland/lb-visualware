@@ -158,10 +158,34 @@
   },
   "Quality": {
     "dataSource": "mysqlProd",
-    "public": true
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
   },
   "VoipCapacity": {
     "dataSource": "mysqlProd",
-    "public": true
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "find": true,
+          "findById": true,
+          "exists": true,
+          "findOne": true,
+          "count": true
+        }
+      }
+    }
   }
 }
