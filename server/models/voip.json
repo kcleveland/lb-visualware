@@ -21,8 +21,7 @@
       "type": "string"
     },
     "time": {
-      "type": "string",
-      "description": "Send as ISO-Date (Date-Time) format: 2018-05-31T17:54:46.000Z"
+      "type": "date"
     },
     "ip": {
       "type": "string"
