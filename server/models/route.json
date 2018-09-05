@@ -20,6 +20,9 @@
     "time": {
       "type": "date"
     },
+    "datetime": {
+      "type": "date"
+    },
     "detaillink": {
       "type": "string"
     },

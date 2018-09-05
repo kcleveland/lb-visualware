@@ -44,6 +44,9 @@
     "time": {
       "type": "date"
     },
+    "datetime": {
+      "type": "date"
+    },
     "pblocklist": {
       "type": "string"
     },

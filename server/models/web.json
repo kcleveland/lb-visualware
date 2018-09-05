@@ -17,6 +17,9 @@
     "time": {
       "type": "date"
     },
+    "datetime": {
+      "type": "date"
+    },
     "sid": {
       "type": "string"
     },

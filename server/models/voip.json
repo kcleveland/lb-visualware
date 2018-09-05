@@ -20,6 +20,9 @@
     "sid": {
       "type": "string"
     },
+    "datetime": {
+      "type": "date"
+    },
     "time": {
       "type": "date"
     },
