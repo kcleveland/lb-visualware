@@ -110,7 +110,7 @@
   },
   "Speed": {
     "dataSource": "mysqlProd",
-    "public": true,
+    "public": false,
     "options": {
       "remoting": {
         "sharedMethods": {
@@ -142,7 +142,7 @@
   },
   "Hispeed": {
     "dataSource": "mysqlProd",
-    "public": true,
+    "public": false,
     "options": {
       "remoting": {
         "sharedMethods": {
@@ -174,7 +174,7 @@
   },
   "VoipCapacity": {
     "dataSource": "mysqlProd",
-    "public": true,
+    "public": false,
     "options": {
       "remoting": {
         "sharedMethods": {
