@@ -24,6 +24,9 @@
     "time": {
       "type": "date"
     },
+    "datetime": {
+      "type": "date"
+    },
     "ip": {
       "type": "string"
     },
