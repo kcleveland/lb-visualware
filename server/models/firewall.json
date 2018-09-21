@@ -42,7 +42,7 @@
       "type": "number"
     },
     "time": {
-      "type": "date"
+      "type": "string"
     },
     "datetime": {
       "type": "date"

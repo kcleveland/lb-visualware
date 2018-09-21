@@ -1,6 +1,12 @@
 module.exports = function(app) {
     app.dataSources.mysqlProd.autoupdate('AppUser', function(err) {
       if (err) throw err;
+    });
+};
+
+/*module.exports = function(app) {
+    app.dataSources.mysqlProd.autoupdate('AppUser', function(err) {
+      if (err) throw err;
   
       app.models.AppUser.create([{
         extensionNumber: 101,
@@ -23,3 +29,4 @@ module.exports = function(app) {
       });
     });
   };
+  */
