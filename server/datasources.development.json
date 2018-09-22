@@ -1,15 +1,16 @@
 {
     "db": {
       "name": "db",
-      "connector": "memory"
+      "connector": "memory",
+      "file": "db.json"
     },
-    "mysqlDs": {
+    "mysqlDev": {
       "host": "192.168.10.200",
       "port": 3306,
       "url": "",
       "database": "lb-visualware",
       "password": "secret",
-      "name": "mysqlDs",
+      "name": "mysqlDev",
       "user": "homestead",
       "connector": "mysql"
     }

@@ -1,0 +1,46 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 4,
+    "Role": 2,
+    "AppUser": 2,
+    "AppToken": 1,
+    "Firewall": 1,
+    "Capacity": 1,
+    "Voip": 1,
+    "Web": 1,
+    "Speed": 1,
+    "Route": 1,
+    "Hispeed": 1,
+    "Quality": 1,
+    "VoipCapacity": 1
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {
+      "1": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1,\"id\":1}",
+      "2": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":2}",
+      "3": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":3}"
+    },
+    "Role": {
+      "1": "{\"name\":\"admin\",\"created\":\"2018-09-22T12:30:28.240Z\",\"modified\":\"2018-09-22T12:30:28.240Z\",\"id\":1}"
+    },
+    "AppUser": {
+      "1": "{\"extensionNumber\":101,\"firstName\":\"App\",\"lastName\":\"Admin\",\"name\":\"App Admin\",\"businessPhone\":\"+17207249757\",\"company\":\"RingCentral\",\"timezone\":\"America/Denver\",\"country\":\"USA\",\"languageCode\":\"en-US\",\"accountId\":871817004,\"site\":\"San Jose\",\"password\":\"$2a$10$jbluSdYOzQkwq2AJc213meVvawXz9hSS4p2P13Yp8y4k/ij35qSlq\",\"email\":\"appadmin@example.org\",\"id\":1}"
+    },
+    "AppToken": {},
+    "Firewall": {},
+    "Capacity": {},
+    "Voip": {},
+    "Web": {},
+    "Speed": {},
+    "Route": {},
+    "Hispeed": {},
+    "Quality": {},
+    "VoipCapacity": {}
+  }
+}

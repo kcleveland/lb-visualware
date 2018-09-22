@@ -3,16 +3,6 @@
       "name": "db",
       "connector": "memory"
     },
-    "mysqlDs": {
-      "host": "us-cdbr-iron-east-01.cleardb.net",
-      "port": 3306,
-      "url": "",
-      "database": "heroku_b5656701c270b40",
-      "password": "249c9d6e",
-      "name": "mysqlDs",
-      "user": "b6bc8a57c74b74",
-      "connector": "mysql"
-    },
     "mysqlProd": {
       "host": "38.97.225.131",
       "port": 3306,
@@ -23,5 +13,5 @@
       "user": "ringcentral",
       "connector": "mysql"
     }
-  }
+}
   
