@@ -3,7 +3,7 @@
     "User": 1,
     "AccessToken": 1,
     "ACL": 1,
-    "RoleMapping": 4,
+    "RoleMapping": 6,
     "Role": 2,
     "AppUser": 2,
     "AppToken": 1,
@@ -24,7 +24,9 @@
     "RoleMapping": {
       "1": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1,\"id\":1}",
       "2": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":2}",
-      "3": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":3}"
+      "3": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":3}",
+      "4": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":4}",
+      "5": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"id\":5}"
     },
     "Role": {
       "1": "{\"name\":\"admin\",\"created\":\"2018-09-22T12:30:28.240Z\",\"modified\":\"2018-09-22T12:30:28.240Z\",\"id\":1}"

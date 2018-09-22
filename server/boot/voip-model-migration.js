@@ -17,7 +17,7 @@ module.exports = function(app) {
       });
       break;
     default:
-      console.log('NODE_ENV not set, not migrating Voip model to datasource.');
+      console.log('NODE_ENV not set to development, staging, or production. Not migrating Voip model to datasource.');
   }
 
 };
