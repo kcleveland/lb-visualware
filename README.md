@@ -21,8 +21,10 @@ To deploy this application to your local machine for development, first
 make sure you have Node.js 8.x LTS or greater installed.
 
 Set your NODE_ENV variable to development. For example:
-    * Windows: `C:\> set NODE_ENV=development`
-    * MacOS and Linux: `export NODE_ENV=development`
+
+    + Windows: `C:\> set NODE_ENV=development`
+    
+    + MacOS and Linux: `export NODE_ENV=development`
 
 Clone the repo using `git clone`. Open up the `datasources.development.json`
 file and change the host, database, password, and user fields to match
