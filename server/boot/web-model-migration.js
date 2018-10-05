@@ -1,23 +1,5 @@
 module.exports = function(app) {
-
-    switch(process.env.NODE_ENV) {
-      case 'production':
-        app.dataSources.mysqlProd.autoupdate('Web', function(err) {
-          if (err) throw err;
-        });
-        break;
-      case 'development':
-        app.dataSources.db.autoupdate('Web', function(err) {
-          if (err) throw err;
-        });
-        break;
-      case 'staging':
-        app.dataSources.mysqlStage.autoupdate('Web', function(err) {
-          if (err) throw err;
-        });
-        break;
-      default:
-        console.log('NODE_ENV not set to development, staging, or production. Not migrating Web model to datasource.');
-    }
-  
-  };
+  app.dataSources.mysqlDs.autoupdate('Web', function(err) {
+    if (err) throw err;
+  });
+};

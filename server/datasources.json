@@ -1,3 +1,16 @@
 {
-
+    "db": {
+        "name": "db",
+        "connector": "memory"
+      },
+      "mysqlDs": {
+        "host": "38.97.225.131",
+        "port": 3306,
+        "url": "",
+        "database": "rc",
+        "password": "R1ngC3ntr@l",
+        "name": "mysqlProd",
+        "user": "ringcentral",
+        "connector": "mysql"
+      }
 }
