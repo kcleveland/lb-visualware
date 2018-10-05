@@ -23,9 +23,9 @@ module.exports = function(app) {
 //         accountId: '871817004',
 //         site: 'San Jose'
 //       }], function(err, AppUsers) {
-//         if (err) throw err;
-  
-//         console.log('Models created: \n', AppUsers);
+//         //if (err) throw err;
+//         if (err) console.log(err);
+//         //console.log('Models created: \n', AppUsers);
 //       });
 //     });
 //   };
