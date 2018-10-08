@@ -9,7 +9,7 @@
         "url": "",
         "database": "rc",
         "password": "R1ngC3ntr@l",
-        "name": "mysqlProd",
+        "name": "mysqlDs",
         "user": "ringcentral",
         "connector": "mysql"
       }
