@@ -1,0 +1,21 @@
+[
+    {
+      "method": "GET",
+      "model": "AppUsers",
+      "expect": 401
+    },
+    {
+      "method": "GET",
+      "model": "Firewalls",
+      "username": "appadmin@example.org",
+      "password": "testing",
+      "expect": 200
+    },
+    {
+      "method": "GET",
+      "model": "Capacities",
+      "username": "appadmin@example.org",
+      "password": "testing",
+      "expect": 200
+    }
+]

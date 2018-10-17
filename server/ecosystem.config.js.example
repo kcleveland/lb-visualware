@@ -1,0 +1,38 @@
+//-> PM2 ecosystem
+
+module.exports = {
+    apps : [{
+      name: 'lb-visualware',
+      script: 'server.js',
+  
+      // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '4G',
+      env: {
+        NODE_ENV: 'development', //-> Uses datasources.development.js
+        DB_HOST: '38.97.225.131',
+        DB_PORT: 3306,
+        DB_USER: 'ringcentral',
+        DB_PASSWORD: 'R1ngC3ntr@l',
+        DB_NAME: 'rc'
+      },
+      env_staging: {
+        NODE_ENV: 'staging' //-> Uses datasources.staging.js
+        DB_HOST:
+        DB_PORT:
+        DB_USER:
+        DB_PASSWORD:
+        DB_NAME:
+      },
+      env_production: {
+        NODE_ENV: 'production' //-> Uses datasources.production.js
+        DB_HOST:
+        DB_PORT:
+        DB_USER:
+        DB_PASSWORD:
+        DB_NAME:
+      }
+    }]
+  };
