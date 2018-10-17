@@ -20,11 +20,15 @@ module.exports = {
       },
       env_staging: {
         NODE_ENV: 'staging' //-> Uses datasources.staging.js
-        DB_HOST: '',
-        DB_PORT: '',
-        DB_USER: '',
-        DB_PASSWORD: '',
-        DB_NAME: ''
+        /**
+         * You must be on Zurich VPN using RSA for this to connect to
+         * the staging DB in the Professional Services lab.
+         */
+        DB_HOST: '10.24.132.93',
+        DB_PORT: 3306,
+        DB_USER: 'backend',
+        DB_PASSWORD: 'Pr0Serv2@18',
+        DB_NAME: 'RCPROSERV'
       },
       env_production: {
         NODE_ENV: 'production' //-> Uses datasources.production.js
