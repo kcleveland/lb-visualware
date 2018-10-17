@@ -1,5 +1,6 @@
 # lb-visualware
-A server-side REST API exposing the MySQL data from Visualware.
+A server-side REST API exposing a MySQL database populated by the 
+data trended from the Visualware "SQL Profiles" tool.
 Built using the [LoopBack JS](https://loopback.io) framework.
 
 ## SDK's
@@ -43,7 +44,8 @@ Servers:
 
 The app is already located at `/opt/lb-visualware`, but if you want to start fresh you
 can simply do a `pm2 delete` to remove and delete the current instance of the app from 
-the pm2 process manager, then `git clone` the repo back to `/opt/lb-visualware`. 
+the pm2 process manager, then `git clone` the repo back to `/opt/lb-visualware` and run
+`npm install`. 
 
 Once the app code is there, use `pm2 startOrReload ecosystem.config.js --env staging` to
 launch the app in staging mode, which uses the lab MySQL server as the datasource. The
@@ -55,6 +57,25 @@ updates, just do a `git pull` to pull in the latest code from the repo. The app 
 be restarted using pm2 to pull in the changes, e.g. 
 `pm2 reload ecosystem.config.js --env staging`.
 
+## Deploy to Production (on Servers in San Jose DC)
+The same general process applies to deploying to the production servers. The production
+DB credentials are not provided in the example ecosystem file for obvious reasons.
+
+To deploy to production, first enter the DB configuration and credentials into your
+`ecosystem.config.js` file under the `env_production` heading.
+
+If this is the first time installing the app, or if you are starting over fresh,
+`git clone` the repo to `/opt/lb-visualware`and run `npm install`.
+
+Once the app code is there, use `pm2 startOrReload ecosystem.config.js --env production` to
+launch the app in production mode, which uses the production MySQL server as the datasource. 
+The `--env production` part injects what is declared under `env_production` in the 
+`ecosystem.config.js` file.
+
+Again, if you don't want to start fresh and just need to pull in some quick code 
+updates, just do a `git pull` to pull in the latest code from the repo. The app can then
+be restarted using pm2 to pull in the changes, e.g. 
+`pm2 reload ecosystem.config.js --env production`.
 
 ## Extra: Deploy on Heroku
 To deploy this application on Heroku, first create a new app
