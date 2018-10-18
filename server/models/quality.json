@@ -15,6 +15,9 @@
     "testid": {
       "type": "number"
     },
+    "testto": {
+      "type": "string"
+    },
     "time": {
       "type": "string"
     },
